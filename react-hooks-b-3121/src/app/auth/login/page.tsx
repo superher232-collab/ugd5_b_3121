@@ -20,7 +20,6 @@ interface ErrorObject {
   captcha?: string;
 }
 
-// Fungsi untuk generate captcha acak
 const generateCaptcha = (): string => {
   const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   let result = "";
